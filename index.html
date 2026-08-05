@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Victor Pedro" />
+
+        <meta
+            name="description"
+            content="Construindo experiências digitais do back-end ao front-end. Explore meus projetos, conheça minhas habilidades e acompanhe minha evolução como desenvolvedor Full Stack."
+        />
+
+        <meta name="Robots" content="follow" />
+
+        <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg" />
+
+        <title>Portfólio - Victor Pedro</title>
+    </head>
+
+    <body>
+        <!-- CABEÇALHO DA PÁGINA-->
+        <header>
+            <div class="menu-content">
+                <!-- Titulo do cabeçalho -->
+                <a href="index.html">Portfólio</a>
+                <!--Menu de navegação-->
+
+                <nav>
+                    <ul class="menu-list">
+                        <li><a href="#hero">Início</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#projects">Projetos</a></li>
+                        <li><a href="#contact">Contatos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- PRINCIPAL-->
+        <main>
+            <section id="hero" class="section-container hero-container">
+                <!--Boas vindas-->
+                <article>
+                    <span>👋 Olá, eu sou o Victor!</span>
+                    <h1>Desenvolvedor Full Stack</h1>
+                    <p>
+                        Construindo experiências digitais do back-end ao
+                        front-end.
+                    </p>
+
+                    <div>
+                        <a href="#contact" class="botao-outline"
+                            >Entre em contato</a
+                        >
+                        <a href="#about" class="botao-outline">Saiba mais</a>
+                    </div>
+                </article>
+
+                <!--Imagem-->
+                <figure class="hero-image">
+                    <img
+                        src="./assets/img/foto_dev_man.svg"
+                        width="300px"
+                        alt="imagem que representa o autor do site"
+                        class="float-animation"
+                    />
+                </figure>
+            </section>
+
+            <section id="about" class="section-container about-container">
+                <figure class="about-image">
+                    <img
+                        src="./assets/img/avatar_dev_man.svg"
+                        alt="Foto perfil do autor do site"
+                    />
+                </figure>
+
+                <article class="about-content">
+                    <h2>Sobre mim</h2>
+                    <p>
+                        Sou Victor Pedro, desenvolvedor Full Stack em formação,
+                        estudante de Análise e Desenvolvimento de Sistemas na
+                        FIAP e participante do bootcamp Java Full Stack da
+                        Generation Brasil. Tenho conhecimentos em Java, Spring
+                        Boot, React, JavaScript, HTML, CSS e bancos de dados.
+                    </p>
+                    <p>
+                        Sou formado em Arquitetura e Urbanismo e construí minha
+                        experiência profissional atuando com organização de
+                        processos, análise de informações e busca por soluções
+                        mais eficientes. Atualmente, aplico essa experiência no
+                        desenvolvimento de projetos digitais simples,
+                        organizados e focados em resolver problemas reais.
+                    </p>
+
+                    <!--links-->
+                    <div class="about-buttons-data">
+                        <div class="buttons-container">
+                            <a href="#" target="_blank" class="botao">GitHub</a>
+                            <a href="#" target="_blank" class="botao-outline"
+                                >Currículo</a
+                            >
+                        </div>
+                        <div class="data-container">
+                            <!--numero de seguidores-->
+                            <div class="data-item">
+                                <span class="data-number">100</span>
+                                <span class="data-label">seguidores</span>
+                            </div>
+
+                            <!--numero de repositórios-->
+                            <div class="data-item">
+                                <span class="data-number">10</span>
+                                <span class="data-label">Repositórios</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section id="projects">
+                <h2>Meus Projetos</h2>
+
+                <!-- Swiper Container -->
+                <div class="swiper projects-swiper">
+                    <div class="swiper-wrapper">
+                        <figure class="swiper-slide">
+                            <article class="project-card">
+                                <!-- Ícone da Tecnologia padrão do projeto -->
+                                <figure class="project-image">
+                                    <img
+                                        src="./assets/icons/languages/github.svg"
+                                        alt="Ícone do GitHub"
+                                        width="300px"
+                                    />
+                                </figure>
+
+                                <!-- Conteúdo do Projeto -->
+                                <div class="project-content">
+                                    <h3>Projeto GitHub</h3>
+                                    <p>Projeto desenvolvido no GitHub</p>
+
+                                    <!-- Tags do Projeto -->
+                                    <div class="project-tags">
+                                        <span class="tag">GitHub</span>
+                                    </div>
+
+                                    <!-- Links do Projeto -->
+                                    <div class="project-buttons">
+                                        <a
+                                            href="#"
+                                            target="_blank"
+                                            class="botao botao-sm"
+                                        >
+                                            GitHub
+                                        </a>
+                                        <a
+                                            href="#"
+                                            target="_blank"
+                                            class="botao-outline botao-sm"
+                                        >
+                                            Deploy
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                        </figure>
+                    </div>
+
+                    <!-- Botões de Navegação -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                    <!-- Paginação -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <section id="contact" class="section-container contact-container">
+                <article>
+                    <h2>Entre em contato</h2>
+                    <p>Sinta-se à vontade para entrar em contato comigo!</p>
+
+                    <div class="social-container">
+                        <a
+                            href="https://www.linkedin.com/in/victor-pgms/"
+                            class="social-icon"
+                            aria-label="linkedin"
+                            target="_blank"
+                        >
+                            <img
+                                src="./assets/icons/social/linkedin.svg"
+                                alt="Link para o LinkedIn do autor"
+                            />
+                        </a>
+                        <a
+                            href="https://github.com/victorpgms"
+                            class="social-icon"
+                            aria-label="GitHub"
+                            target="_blank"
+                        >
+                            <img
+                                src="./assets/icons/social/github.svg"
+                                alt="Link para o GitHub do autor"
+                            />
+                        </a>
+                    </div>
+                </article>
+
+                <form id="formulario">
+                    <label for="nome">Nome</label>
+                    <input
+                        id="nome"
+                        name="nome"
+                        type="text"
+                        placeholder="Digite o seu nome"
+                    />
+                    <span id="erro-nome"></span>
+
+                    <label for="email">E-mail</label>
+                    <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        placeholder="Digite o seu e-mail"
+                    />
+                    <span id="erro-email"></span>
+
+                    <label for="assunto">Assunto</label>
+                    <input
+                        id="assunto"
+                        name="assunto"
+                        type="text"
+                        placeholder="Digite o assunto"
+                    />
+                    <span id="erro-assunto"></span>
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea
+                        id="mensagem"
+                        name="mensagem"
+                        placeholder="Digite a sua mensagem"
+                    ></textarea>
+                    <span id="erro-mensagem"></span>
+
+                    <button class="botao" type="submit">Enviar mensagem</button>
+                </form>
+            </section>
+        </main>
+
+        <!-- RODAPÉ DA PÁGINA-->
+        <footer>Desenvolvido por Victor Pedro - 2026</footer>
+    </body>
+</html>
