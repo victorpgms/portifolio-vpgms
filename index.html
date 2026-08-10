@@ -35,7 +35,7 @@
         <header>
             <div class="menu-content">
                 <!-- Titulo do cabeçalho -->
-                <a href="index.html">Portfólio</a>
+                <a href="index.html" id="titulo">Victor Pedro</a>
                 <!--Menu de navegação-->
 
                 <nav>
@@ -53,7 +53,7 @@
         <main>
             <section id="hero" class="section-container hero-container">
                 <!--Boas vindas-->
-                <article>
+                <article class="hero-content">
                     <span>👋 Olá, eu sou o Victor!</span>
                     <h1>Desenvolvedor Full Stack</h1>
                     <p>
@@ -62,9 +62,7 @@
                     </p>
 
                     <div>
-                        <a href="#contact" class="botao-outline"
-                            >Entre em contato</a
-                        >
+                        <a href="#contact" class="botao">Entre em contato</a>
                         <a href="#about" class="botao-outline">Saiba mais</a>
                     </div>
                 </article>
@@ -73,7 +71,6 @@
                 <figure class="hero-image">
                     <img
                         src="./assets/img/foto_dev_man.svg"
-                        width="300px"
                         alt="imagem que representa o autor do site"
                         class="float-animation"
                     />
@@ -138,13 +135,12 @@
                     </div>
                 </article>
             </section>
-
-            <section id="projects">
+            <!-- Seção de Projetos -->
+            <section id="projects" class="section-container projects-container">
                 <h2>Meus Projetos</h2>
 
                 <!-- Swiper Container -->
-                <div class="swiper projects-swiper">
-                    <div class="swiper-wrapper">
+
                         <div class="swiper-slide">
                             <article class="project-card">
                                 <!-- Ícone da Tecnologia padrão do projeto -->
@@ -152,7 +148,6 @@
                                     <img
                                         src="./assets/icons/languages/github.svg"
                                         alt="Ícone do GitHub"
-                                        width="300px"
                                     />
                                 </figure>
 
@@ -198,7 +193,7 @@
             </section>
 
             <section id="contact" class="section-container contact-container">
-                <article>
+                <article class="contact-info">
                     <h2>Entre em contato</h2>
                     <p>Sinta-se à vontade para entrar em contato comigo!</p>
 
