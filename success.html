@@ -1,8 +1,25 @@
 <!doctype html>
 <html lang="pt-br">
     <head>
+        <!-- Fontes do Google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <!-- Fonte do Google - Poppins -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+            rel="stylesheet"
+        />
+
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- CSS principal -->
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+
+        <!-- Favicon -->
+        <link rel="icon" href="./assets/img/icone_pg_vpgms.png" />
+
         <title>Mensagem enviada - Portfólio</title>
     </head>
 
@@ -11,29 +28,31 @@
         <header>
             <div class="menu-content">
                 <!-- Titulo do cabeçalho -->
-                <a href="index.html">Portfólio</a>
+                <a href="index.html" id="titulo">Victor Pedro</a>
                 <!--Menu de navegação-->
 
                 <nav>
                     <ul class="menu-list">
-                        <li><a href="#hero">Início</a></li>
-                        <li><a href="#about">Sobre</a></li>
-                        <li><a href="#projects">Projetos</a></li>
-                        <li><a href="#contact">Contatos</a></li>
+                        <li><a href="index.html#hero">Início</a></li>
+                        <li><a href="index.html#about">Sobre</a></li>
+                        <li><a href="index.html#projects">Projetos</a></li>
+                        <li><a href="index.html#contact">Contatos</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
 
+        <!-- Seção Principal da Página (main) -->
         <main>
+            <!-- Mensagem de Sucesso -->
             <section class="success-container">
-                <article>
-                    <figure class="success-icone">
+                <article class="success-content">
+                    <figure class="success-icon">
                         <img
                             src="./assets/img/success.svg"
-                            alt="Imagem confirmação de sucesso"
+                            alt="Ilustração de sucesso"
                             class="float-animation"
-                            width="300px"
+                            width="20%"
                         />
                     </figure>
 

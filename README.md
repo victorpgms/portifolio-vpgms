@@ -2,133 +2,183 @@
 
 ---
 
-<div align="center"> 
-<img src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5" alt="HTML Badge" /> 
-<img src="https://img.shields.io/badge/CSS-3-purple?style=for-the-badge&logo=css&logoColor=purple" alt="CSS Badge" /> 
-<img src="https://img.shields.io/badge/JavaScript-ES6+-yellow?style=for-the-badge&logo=javascript&logoColor=yellow%22 alt="JavaScript Badge" /> 
+<div align="center">
+
+<img src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5" alt="HTML Badge" />
+<img src="https://img.shields.io/badge/CSS-3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS Badge" />
+<img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge" />
+
 </div>
- 
+
 <br />
- 
-O **Projeto Portfólio Pessoal** é um **site profissional moderno**, desenvolvido com **HTML, CSS e JavaScript**, com o objetivo de apresentar informações sobre a pessoa desenvolvedora, seus projetos e formas de contato de maneira clara, interativa e responsiva.
- 
-O projeto consome dados dinâmicos da **API do GitHub**, permitindo que informações como perfil e repositórios sejam carregadas automaticamente, mantendo o conteúdo sempre atualizado.
- 
-------
- 
+
+O **Projeto Portfólio Pessoal** é um site profissional desenvolvido com **HTML, CSS e JavaScript**, criado para apresentar minha trajetória, meus projetos, informações profissionais e formas de contato de maneira clara, interativa e responsiva.
+
+O projeto possui uma identidade visual personalizada em **tons de azul**, além de elementos gráficos, animações e uma ilustração desenvolvida especialmente para o portfólio.
+
+A aplicação também consome dados da **API do GitHub**, permitindo carregar automaticamente informações do perfil e dos repositórios.
+
+---
+
 ## Funcionalidades
- 
-- Estrutura de páginas desenvolvida com **HTML semântico**
-- Estilização moderna com **CSS**, utilizando:
-  - Variáveis CSS
-  - Animações
-  - Layout responsivo (desktop, tablet e mobile)
+
+- Estrutura desenvolvida com **HTML semântico**
+- Identidade visual personalizada com **CSS**
+- Layout responsivo para:
+    - Desktop
+    - Tablet
+    - Mobile
+- Utilização de:
+    - Variáveis CSS
+    - Animações
+    - Transições
+    - Media Queries
+    - Flexbox
+    - Grid
 - Integração com a **API do GitHub** para:
-  - Exibição dinâmica das informações do perfil
-  - Listagem automática dos repositórios
-- Exibição dos projetos em **carrossel interativo** utilizando **Swiper.js**
-- **Formulário de contato com validação no frontend**, garantindo o correto preenchimento dos campos
-- Página dedicada de **confirmação de envio** do formulário
-- Navegação fluida com menu fixo e rolagem suave
-- Interface intuitiva e organizada, focada na experiência do usuário
- 
-------
- 
+    - Exibição dinâmica das informações do perfil
+    - Número de seguidores
+    - Número de repositórios públicos
+    - Informações dos projetos
+- Exibição de **12 projetos** no portfólio:
+    - 4 projetos principais definidos manualmente
+    - 8 repositórios recentes carregados automaticamente pelo GitHub
+- Identificação visual dos projetos em destaque
+- Remoção automática de projetos duplicados entre os destaques e os repositórios recentes
+- Exibição dos projetos em **carrossel responsivo** utilizando **Swiper.js**
+- Exibição dinâmica de:
+    - Linguagem principal
+    - Tecnologias/tópicos do repositório
+    - Descrição
+    - Link para o GitHub
+    - Link de deploy, quando disponível
+- Formulário de contato com **validação no frontend**
+- Envio de mensagens utilizando **FormSubmit**
+- Página dedicada de confirmação de envio
+- Navegação com menu fixo e rolagem suave
+- Links para:
+    - GitHub
+    - LinkedIn
+    - Currículo
+    - Certificados
+
+---
+
 ## Estrutura do Projeto
- 
-```
-📁portfolio/
+
+```text
+📁 portfolio/
 │
-├── index.html        # Página principal do portfólio
-├── success.html      # Página de confirmação de envio do formulário
+├── index.html                 # Página principal do portfólio
+├── success.html               # Página de confirmação de envio
 │
-├── 📁assets/
-│   ├── 📁css/
-│   │   └── styles.css    # Estilos e responsividade
-│   ├── 📁js/
-│   │   └── scripts.js    # Integração com GitHub, carrossel e validações
-│   ├── 📁img/            # Imagens e ilustrações
-│   └── 📁icons/          # Ícones das linguagens e redes sociais
+├── 📁 assets/
+│   ├── 📁 css/
+│   │   └── styles.css         # Estilos e responsividade
+│   │
+│   ├── 📁 js/
+│   │   └── script.js          # GitHub API, Swiper e validações
+│   │
+│   ├── 📁 img/                # Imagens, ilustrações e favicon
+│   │
+│   ├── 📁 icons/
+│   │   ├── 📁 languages/      # Ícones das linguagens
+│   │   └── 📁 social/         # Ícones das redes sociais
+│   │
+│   └── 📁 docs/               # Documentação técnica
 │
 └── README.md
 ```
- 
-------
- 
+
+---
+
 ## Tecnologias Utilizadas
- 
-- **HTML5**: Estruturação semântica do conteúdo
-- **CSS3**: Estilização, layout responsivo e animações
-- **JavaScript (ES6+)**: Interatividade, consumo de APIs e validações
-- **Swiper.js**: Carrossel de projetos responsivo
-- **Fom Submit:** Serviço de envio de e-mails via formulário HTML
-- **GitHub API**: Fonte dinâmica de dados do perfil e repositórios
- 
-------
- 
+
+- **HTML5**: estruturação semântica do conteúdo
+- **CSS3**: estilização, identidade visual, animações e responsividade
+- **JavaScript (ES6+)**: interatividade, consumo de API e validações
+- **Swiper.js**: carrossel responsivo de projetos
+- **FormSubmit**: serviço utilizado para envio de mensagens pelo formulário
+- **GitHub REST API**: carregamento dinâmico de dados do perfil e dos repositórios
+
+---
+
 ## Executando Localmente
- 
+
 Para executar o projeto em ambiente local, siga os passos abaixo.
- 
+
 ### Pré-requisitos
- 
-- [Visual Studio Code](https://code.visualstudio.com/) (ou outro editor de sua preferência)
+
+- [Visual Studio Code](https://code.visualstudio.com/) ou outro editor de sua preferência
 - Extensão **Live Server** instalada no VS Code
- 
+
 ### Passos
- 
+
 1. Clone o repositório:
- 
-   ```bash
-   git clone https://github.com/victorpgms/portifolio-vpgms
-   ```
- 
+
+```bash
+git clone https://github.com/victorpgms/portifolio-vpgms
+```
+
 2. Acesse a pasta do projeto:
- 
-   ```bash
-   cd portfolio
-   ```
- 
+
+```bash
+cd portifolio-vpgms
+```
+
 3. Abra o projeto no Visual Studio Code:
- 
-   ```bash
-   code .
-   ```
- 
-4. Abra o arquivo `index.html`, clique com o botão direito e selecione **"Open with Live Server"**.
- 
-O site será aberto no navegador e todas as alterações poderão ser visualizadas em tempo real.
- 
-------
- 
+
+```bash
+code .
+```
+
+4. Abra o arquivo `index.html`, clique com o botão direito e selecione:
+
+```text
+Open with Live Server
+```
+
+O site será aberto no navegador e poderá ser executado localmente.
+
+---
+
 ## Documentação Técnica
- 
- 
+
 1. [Estrutura do HTML](./assets/docs/html/README.md)
 2. [Estilização com CSS](./assets/docs/css/README.md)
-3. [Script JS](./assets/docs/js/README.md)
- 
+3. [Script JavaScript](./assets/docs/js/README.md)
+
 ---
- 
+
 ## Diferenciais do Projeto
- 
- 
-- Layout **responsivo**
-- Paleta de cores harmônica com tons de roxo e cinza
-- **Animações suaves** (transições e efeitos de flutuação)
-- **Formulário funcional** com envio automático via e-mail
-- Estrutura de código **limpa e semântica**, seguindo boas práticas
- 
+
+- Layout totalmente **responsivo**
+- Identidade visual personalizada em **tons de azul**
+- Interface adaptada e personalizada a partir da estrutura inicial proposta durante o curso
+- Ilustração e elementos visuais próprios
+- Integração dinâmica com a **API do GitHub**
+- Seleção de **projetos em destaque**
+- Atualização automática dos projetos recentes
+- Prevenção de projetos duplicados na listagem
+- Carrossel responsivo com **Swiper.js**
+- Animações e transições suaves
+- Formulário funcional com validações em JavaScript
+- Envio automático de mensagens através do **FormSubmit**
+- Estrutura organizada utilizando HTML semântico
+- Separação entre conteúdo, estilização e comportamento
+
 ---
- 
+
 ## Deploy
- 
-Este site está disponível publicamente através do **GitHub Pages**. Você pode acessar a versão online pelo link abaixo:
- 
-🔗 *Em elaboração
- 
-------
- 
+
+Este site será disponibilizado publicamente através do **GitHub Pages**.
+
+🔗 _Em elaboração_
+
+---
+
 ## Contribuições
- 
-Contribuições são bem-vindas. Caso tenha sugestões de melhorias, correções ou novas funcionalidades, sinta-se à vontade para abrir uma **issue** ou enviar um **pull request**.
+
+Contribuições são bem-vindas.
+
+Caso tenha sugestões de melhorias, correções ou novas funcionalidades, sinta-se à vontade para abrir uma **issue** ou enviar um **pull request**.
